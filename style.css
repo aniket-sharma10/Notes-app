@@ -50,6 +50,7 @@ body{
 }
 .notes-text{
     position: relative;
+    outline: none;
     margin: 20px 0;
     width: 100%;
     max-width: 500px;
