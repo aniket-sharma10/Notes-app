@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to right,#3498db, #1f4788);
+}
+
+.container{
+    width: 70%;
+    margin: 60px auto 10px;
+}
+.container h1 img{
+    width: 50px;
+}
+.container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.create{
+    background: linear-gradient(to right, #1a5276, #0c2461);
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 15px 0;
+}
+.create  img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.notes-container{
+    margin-top: 20px;
+   
+}
+.notes-text{
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+.notes-text img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
